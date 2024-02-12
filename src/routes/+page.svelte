@@ -1,5 +1,5 @@
 <script lang="ts">
-  const x = ""
+  const ctx = null
 </script>
 
 <main class="flex h-screen">
@@ -7,6 +7,7 @@
   <div class="m-auto text-center">
     <div>
       <b>ullrich</b>.tech
-    </div> 
+    </div>
+    <p class="text-xs italic">hello world</p>
   </div>
 </main>
