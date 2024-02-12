@@ -5,6 +5,8 @@
 <main class="flex h-screen">
   <canvas class="fixed h-screen w-screen" />
   <div class="m-auto text-center">
-    <b>ullrich</b>.tech 
+    <div>
+      <b>ullrich</b>.tech
+    </div> 
   </div>
 </main>
