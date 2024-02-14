@@ -6,9 +6,8 @@ html {
 	@apply bg-black;
 	@apply text-white;
 }
-
-.animate-screw {
-	animation: srew 12.9s infinite;
+.animate-srew {
+  animation: srew 12.9s infinite;
 }
 
 .animate-scanlines {
@@ -16,7 +15,7 @@ html {
 	box-shadow: inset 0px 0px 15vh 0px rgba(0, 0, 75, 0.5);
 }
 
-.scanlines:before {
+.animate-scanlines:before {
 	background: linear-gradient(hsla(0, 6%, 7%, 0) 50%, rgba(0, 0, 0, 0.25) 0),
 		linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
 	background-size:
@@ -24,8 +23,8 @@ html {
 		3px 100%;
 }
 
-.scanlines:after,
-.scanlines:before {
+.animate-scanlines:after,
+.animate-scanlines:before {
 	bottom: 0;
 	content: ' ';
 	display: block;
@@ -37,8 +36,8 @@ html {
 	z-index: 2;
 }
 
-.scanlines:after,
-.scanlines:before {
+.animate-scanlines:after,
+.animate-scanlines:before {
 	bottom: 0;
 	content: ' ';
 	display: block;
@@ -50,24 +49,9 @@ html {
 	z-index: 2;
 }
 
-.scanlines:after {
+.animate-scanlines:after {
 	background: hsla(0, 6%, 7%, 0.1);
 	opacity: 0;
-}
-
-@keyframes blink {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 1;
-	}
-	65% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
 }
 
 @keyframes blurryMonitor {

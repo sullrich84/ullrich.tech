@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <div class="flex flex-col justify-center items-center h-screen w-full animate-scanlines animate-screw">
+  <div class="flex flex-col justify-center items-center h-screen w-full animate-scanlines">
     <div>
       <b>ullrich</b>.tech
     </div>
