@@ -2,9 +2,8 @@
   const ctx = null
 </script>
 
-<main class="flex h-screen">
-  <canvas class="fixed h-screen w-screen" />
-  <div class="m-auto text-center scanlines">
+<main>
+  <div class="flex flex-col justify-center items-center h-screen w-full animate-scanlines animate-screw">
     <div>
       <b>ullrich</b>.tech
     </div>

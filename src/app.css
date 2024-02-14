@@ -7,23 +7,13 @@ html {
 	@apply text-white;
 }
 
-#ttl {
+.animate-screw {
 	animation: srew 12.9s infinite;
 }
 
-.scanlines {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	min-width: 100vw;
-	min-height: 100vh;
+.animate-scanlines {
 	animation: blurryMonitor 2.1s infinite;
 	box-shadow: inset 0px 0px 15vh 0px rgba(0, 0, 75, 0.5);
-	background: black;
-	color: white;
 }
 
 .scanlines:before {
