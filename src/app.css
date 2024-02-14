@@ -6,8 +6,9 @@ html {
 	@apply bg-black;
 	@apply text-white;
 }
+
 .animate-srew {
-  animation: srew 12.9s infinite;
+	animation: srew 12.9s infinite;
 }
 
 .animate-scanlines {

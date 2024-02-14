@@ -4,9 +4,9 @@
 
 <main>
   <div class="flex flex-col justify-center items-center h-screen w-full animate-scanlines">
-    <div>
-      <b>ullrich</b>.tech
+    <div class="text-center">
+      <p><b>ullrich</b>.tech</p>
+      <p class="text-xs">hello world</p>
     </div>
-    <p class="text-xs">hello world</p>
   </div>
 </main>
