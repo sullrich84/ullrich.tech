@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <main>
   <div class="flex flex-col justify-center items-center h-screen w-full animate-scanlines">
     <div class="text-center">
