@@ -1,5 +1,4 @@
 <script lang="ts">
-  const ctx = null
 </script>
 
 <main>
